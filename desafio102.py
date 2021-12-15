@@ -18,3 +18,4 @@ def fatorial(num, show=False):
 
 numero = int(input('Digite um número: '))
 print(fatorial(numero, show=True))
+print(fatorial.__doc__)
