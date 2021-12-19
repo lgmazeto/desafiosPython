@@ -1,3 +1,9 @@
-import urllib
+from urllib.request import Request, urlopen
 
-print(urllib.request('www.google.com'))
+siteRequest = Request('http://www.pudim.com.br/')
+try:
+    resposta = urlopen(siteRequest)
+except Exception as e:
+    print(f'Site não disponivel', e)
+else:
+    print('Site disponivel!')

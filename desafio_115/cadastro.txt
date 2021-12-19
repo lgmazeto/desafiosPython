@@ -1,0 +1,8 @@
+Carlos, 32
+Carol, 25
+Guilherme, 29
+João, 26
+Giovana, 15
+Adriana, 40
+Lelina, 43
+Vó, 100
